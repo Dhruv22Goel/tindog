@@ -1,0 +1,147 @@
+/* tags */
+body {
+    font-family: 'Montserrat, sans-serif';
+}
+/* title */
+.title {
+    background-color: #ff4c69;
+    color: #fff;
+}
+.title-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* nav bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+/* download button */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+/* title image */
+.title-image{
+    width: 21.25%;
+    transform: rotateZ(25deg);
+    position: absolute;
+    right: 21.5%;
+}
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+/* divs */
+.col-lg-4{
+    text-align: center;
+    padding: 5%;
+}
+/* font awesome */
+.edit {
+    font-size: 4rem;
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.edit:hover{
+    color:#ff4c68;
+}
+/* first text */
+.edit-text1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* second text */
+.edit-text2{
+    color: #8f8f8f;
+}
+/* TESTIMONIALS */
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+    text-align: center;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+/* image */
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+}
+/* press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-coloumn{
+    padding: 3% 2%;
+}
+/* call to action */
+#cta{
+    background-color: #ff4c68;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 5% 10%;
+    padding-bottom: 100px;
+}
+.ctah3 {
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 4rem;
+    color: #fff;
+    padding: 20px 15% 50px;
+}
+#footer{
+    text-align: center;
+    line-height: 2rem;
+    margin: 100px;
+}
+.footer-icons{
+    padding: 7px;
+}
+.footer-p{
+    padding-top: 10px;
+    color: #8f8f8f;
+    font-size: smaller;
+}
+@media (max-width:991px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
